@@ -1,0 +1,52 @@
+{
+  "name": "beta-capturejs",
+  "version": "0.5.0",
+  "description": "Socket Mobile Capture JS NPM package for Socket Mobile barcode scanner and NFC Reader/Writer products",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "files":[
+    "README.md",
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rm -rf ./node_modules package-lock.json && npm i",
+    "build": "rm -rf ./built && tsc",
+    "buildnpm": "rm -rf ./lib && tsc --project tsconfig.npm.json",
+    "updatenpm": "cp -r ./lib ./socketmobile-capturejs/lib && cp package.json ./socketmobile-capturejs && cp README-NPM.md ./socketmobile-capturejs/README.md",
+    "test": "jest",
+    "publish": "webpack",
+    "test:only": "jest -t",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand",
+    "test:debug:only": "node --inspect node_modules/.bin/jest --runInBand -t",
+    "update": "python buildscripts/update.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.github.com/SocketMobile/beta-captureJs.git"
+  },
+  "keywords": [
+    "barcode",
+    "scanner",
+    "nfc",
+    "reader/writer",
+    "ble",
+    "bluetooth",
+    "data",
+    "collection",
+    "data",
+    "capture"
+  ],
+  "author": "Socket Mobile, Inc.",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^24.0.13",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

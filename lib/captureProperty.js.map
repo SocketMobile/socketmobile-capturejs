@@ -1,0 +1,1 @@
+{"version":3,"file":"captureProperty.js","sourceRoot":"","sources":["../ts/captureProperty.ts"],"names":[],"mappings":"AAGA,MAAM,CAAC,OAAO,OAAO,eAAe;IAIlC,YAAY,EAAsB,EAAE,IAA0B,EAAE,KAAQ;QACtE,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;QACb,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;QACjB,IAAI,CAAC,KAAK,GAAG,KAAK,CAAC;IACrB,CAAC;CACF"}

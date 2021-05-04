@@ -1,0 +1,39 @@
+export declare class CaptureDeviceTypeClass {
+    static readonly DeviceManagerClass = 1;
+    static readonly DeviceClass = 0;
+}
+export declare class CaptureDeviceTypeInterface {
+    static readonly Serial = 4;
+    static readonly CF = 2;
+    static readonly Ble = 5;
+    static readonly SD = 1;
+    static readonly None = 0;
+    static readonly Bluetooth = 3;
+}
+export declare class CaptureDeviceType {
+    static readonly ScannerD790 = 196628;
+    static readonly Scanner7x = 196610;
+    static readonly None = 0;
+    static readonly ScannerS740 = 196624;
+    static readonly BtUnknown = 196631;
+    static readonly ScannerS850 = 196615;
+    static readonly ScannerS760 = 196626;
+    static readonly SoftScan = 5;
+    static readonly ScannerD760 = 196621;
+    static readonly ScannerD740 = 196619;
+    static readonly Scanner7xi = 196612;
+    static readonly ScannerD600 = 327701;
+    static readonly ScannerD700 = 196617;
+    static readonly ScannerS550 = 327702;
+    static readonly ScannerS750 = 196625;
+    static readonly ScannerS700 = 196622;
+    static readonly ScannerS840 = 196616;
+    static readonly ScannerS860 = 196627;
+    static readonly ScannerD750 = 196620;
+    static readonly ScannerS730 = 196623;
+    static readonly ScannerD730 = 196618;
+    static readonly Scanner9 = 196611;
+    static readonly ScannerS800 = 196614;
+    static readonly DeviceManagerBle = 17104896;
+    static readonly Scanner7 = 196609;
+}
