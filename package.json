@@ -1,6 +1,6 @@
 {
-  "name": "beta-capturejs",
-  "version": "0.5.0",
+  "name": "socketmobile-capturejs",
+  "version": "1.0.0",
   "description": "Socket Mobile Capture JS NPM package for Socket Mobile barcode scanner and NFC Reader/Writer products",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
