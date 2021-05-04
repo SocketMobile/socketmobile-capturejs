@@ -15,7 +15,7 @@ npm i socketmobile-capturejs --save
 Using CaptureJS in the code:
 
 ```sh
-import { Capture } from 'beta-captureJs';
+import { Capture } from 'socketmobile-capturejs';
 import React from 'react';
 
 ```
