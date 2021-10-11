@@ -51,7 +51,7 @@ if (typeof globalThis.window?.document?.createElement === 'undefined') {
 }
 ```
 
-Then in your pages or index.js file you can import socketmobile-capture modules. Note: You cannot import socketmobile-capture modules in the same file that you write the above global check or you will get the same undefined XMLHttpRequest error. 
+Then in your pages or index.js file you can import socketmobile-capture modules. Note: You cannot import socketmobile-capture modules in the same file that you write the above global check or you will get the same undefined XMLHttpRequest error. For more on this type of error, check out the issue raised [here](https://github.com/SocketMobile/socketmobile-capturejs/issues/1).
 
 ## Help
 
