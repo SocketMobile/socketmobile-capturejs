@@ -67,7 +67,7 @@ export declare enum Flash {
     Off = 0,
     On = 1
 }
-export declare enum SoftScan {
+export declare enum SocketCam {
     Enable = 0,
     Disable = 1,
     NotSupported = 2,

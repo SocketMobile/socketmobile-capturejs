@@ -10,5 +10,5 @@ declare global {
     }
 }
 export default class Transport {
-    static getTransport(logger?: Logger): RpcTransport;
+    static getTransport(logger?: Logger, xhr?: any): RpcTransport;
 }

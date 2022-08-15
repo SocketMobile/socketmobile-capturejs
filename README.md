@@ -56,4 +56,3 @@ Then in your pages or index.js file you can import socketmobile-capture modules.
 ## Help
 
 The online documentation is available here: https://docs.socketmobile.com/capturejs/en/latest/
-
