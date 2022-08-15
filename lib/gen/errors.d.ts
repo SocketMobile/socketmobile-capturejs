@@ -76,4 +76,9 @@ export default class SktErrors {
     static readonly ESKT_CANCEL = -91;
     static readonly ESKT_EXPIRED = -92;
     static readonly ESKT_INVALIDAPPINFO = -93;
+    static readonly ESKT_BLEGATT = -94;
+    static readonly ESKT_FAVORITENOTEMPTY = -95;
+    static readonly ESKT_LOCATIONPERMISSIONMISSING = -96;
+    static readonly ESKT_UNABLETOCOMPLETEOPERATION = -97;
+    static readonly ESKT_LOCATIONSERVICEDISABLED = -98;
 }

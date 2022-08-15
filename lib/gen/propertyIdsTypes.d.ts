@@ -6,7 +6,7 @@ export declare enum CapturePropertyIds {
     DataConfirmationMode = -2147352572,
     DataConfirmationAction = -2147287035,
     MonitorMode = -2145124346,
-    SoftScanStatus = -2147352569,
+    SocketCamStatus = -2147352569,
     VersionDevice = 65536,
     DeviceType = 65538,
     DeviceSpecific = 4456451,
@@ -47,18 +47,20 @@ export declare enum CapturePropertyIds {
     StandConfigDevice = 196890,
     StartDiscovery = 1245696,
     Favorite = 328193,
-    UniqueDeviceIdentifier = 5308930
+    UniqueDeviceIdentifier = 5308930,
+    PcScTagTransmit = 4456731,
+    PcScCouplerControl = 4456732
 }
 export declare enum CapturePropertyTypes {
-    Enum = 8,
-    LastType = 10,
-    Version = 6,
-    Array = 4,
-    Byte = 2,
-    NotApplicable = 1,
-    Ulong = 3,
-    String = 5,
     None = 0,
+    NotApplicable = 1,
+    Byte = 2,
+    Ulong = 3,
+    Array = 4,
+    String = 5,
+    Version = 6,
     DataSource = 7,
-    Object = 9
+    Enum = 8,
+    Object = 9,
+    LastType = 10
 }
