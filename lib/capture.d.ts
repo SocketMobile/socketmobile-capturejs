@@ -18,7 +18,7 @@ declare class Capture {
     constructor(log?: Logger);
     open(appInfo: AppInfo, eventNotification: Notification, options?: CaptureOptions): Promise<number>;
     close(): Promise<number>;
-    openDevice(guid: string, capture: Capture): Promise<number>;
+    openDevice(guid: string, capture: Capture): Promise<any>;
     getProperty<T>(property: CaptureProperty<T>): Promise<CaptureProperty<any>>;
     setProperty<T>(property: CaptureProperty<T>): Promise<CaptureProperty<unknown>>;
     notification(jsonRpc: JRpcEvent<any>, handle?: number): void;
