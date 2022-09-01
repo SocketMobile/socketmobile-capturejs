@@ -1,6 +1,6 @@
 {
   "name": "socketmobile-capturejs",
-  "version": "1.0.206",
+  "version": "1.0.200",
   "description": "Socket Mobile Capture JS NPM package for Socket Mobile barcode scanner and NFC Reader/Writer products",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "clean": "rm -rf ./node_modules package-lock.json && npm i",
-    "build": "npm run updateversion && rm -rf ./built && tsc",
+    "build": "npm run updateversion && npm run update && rm -rf ./built && tsc",
     "buildnpm": "rm -rf ./lib && tsc --project tsconfig.npm.json",
     "updatenpm": "cp -r ./lib ./socketmobile-capturejs/lib && cp package.json ./socketmobile-capturejs",
     "bundle": "export NODE_OPTIONS=--openssl-legacy-provider && webpack",
