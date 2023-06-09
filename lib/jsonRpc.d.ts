@@ -24,7 +24,7 @@ export declare class JRpcRequest<T> extends JsonRpc {
     constructor(id: number, method: string, params: T);
 }
 export declare class JRpcResponse<T> extends JsonRpc {
-    result: T;
+    result?: T;
     constructor(id: number, response: T);
 }
 export declare class JRpcError extends JsonRpc {

@@ -1,4 +1,4 @@
-import { JRpcRequest, JRpcResponse, JRpcEvent } from './jsonRpc';
+import { JRpcRequest, JRpcResponse, JRpcEvent, JRpcError } from './jsonRpc';
 export declare class BaseTransport {
     handles: {
         handle: number;
@@ -11,5 +11,5 @@ export interface RpcTransport extends BaseTransport {
         handle: number;
     }>;
     close(handle: number): Promise<number>;
-    send<T>(handle: number, jsonRpc: JRpcRequest<T>): Promise<JRpcResponse<any>>;
+    send<T>(handle: number, jsonRpc: JRpcRequest<T>): Promise<JRpcResponse<any>> | Promise<JRpcError>;
 }
