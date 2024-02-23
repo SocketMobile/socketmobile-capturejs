@@ -18,7 +18,8 @@ export declare enum Trigger {
     Stop = 2,
     Enable = 3,
     Disable = 4,
-    ContinuousScan = 5
+    ContinuousScan = 5,
+    ContinuousScanUntilRead = 6
 }
 export declare enum DeletePairing {
     Current = 0,
@@ -70,8 +71,7 @@ export declare enum Flash {
 export declare enum SocketCam {
     Enable = 0,
     Disable = 1,
-    NotSupported = 2,
-    Supported = 2
+    NotSupported = 2
 }
 export declare enum PowerState {
     Unknown = 0,
@@ -126,7 +126,9 @@ export declare enum Disconnect {
 export declare enum ProfileSelect {
     None = 0,
     Spp = 1,
-    Hid = 2
+    Hid = 2,
+    Reader = 3,
+    Coupler = 4
 }
 export declare enum ProfileConfig {
     None = 0,
@@ -189,4 +191,11 @@ export declare enum ButtonPressMask {
     Middle = 4,
     Power = 8,
     RingDetach = 16
+}
+export declare enum ThemeSelection {
+    None = 0,
+    Health = 1,
+    Access = 2,
+    Value = 3,
+    Membership = 4
 }

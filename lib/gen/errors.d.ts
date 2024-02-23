@@ -4,6 +4,7 @@ export default class SktErrors {
     static readonly ESKT_PENDING = 3;
     static readonly ESKT_STILLPENDING = 4;
     static readonly ESKT_CREATED = 5;
+    static readonly ESKT_NODATA = 6;
     static readonly ESKT_NOERROR = 0;
     static readonly ESKT_TESTFAILED = -1;
     static readonly ESKT_NOTENOUGHMEMORY = -2;
@@ -81,4 +82,5 @@ export default class SktErrors {
     static readonly ESKT_LOCATIONPERMISSIONMISSING = -96;
     static readonly ESKT_UNABLETOCOMPLETEOPERATION = -97;
     static readonly ESKT_LOCATIONSERVICEDISABLED = -98;
+    static readonly ESKT_BLUETOOTHPERMISSIONMISSING = -99;
 }

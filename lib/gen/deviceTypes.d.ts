@@ -18,6 +18,7 @@ export declare class CaptureDeviceType {
     static readonly Scanner7xi = 196612;
     static readonly Scanner9 = 196611;
     static readonly SocketCamC820 = 5;
+    static readonly SocketCamC860 = 29;
     static readonly ScannerS800 = 196614;
     static readonly ScannerS820 = 196634;
     static readonly ScannerS850 = 196615;
@@ -38,9 +39,19 @@ export declare class CaptureDeviceType {
     static readonly ScannerD790 = 196628;
     static readonly ScannerD600 = 327701;
     static readonly ScannerS550 = 327702;
-    static readonly ScannerS370 = 327707;
-    static readonly ScannerS320 = 327708;
+    static readonly ScannerS370 = 327963;
+    static readonly NFCS370 = 329243;
+    static readonly ScannerS320 = 327964;
     static readonly NFCTag = 393239;
-    static readonly BtUnknown = 196637;
+    static readonly ScannerD930 = 196894;
+    static readonly ScannerD940 = 327967;
+    static readonly ScannerD960 = 327968;
+    static readonly BtUnknown = 196641;
     static readonly DeviceManagerBle = 17104897;
+}
+export declare class CaptureDeviceTypeFunction {
+    static readonly Legacy = 0;
+    static readonly Scanner = 1;
+    static readonly NFCReader = 2;
+    static readonly NFCWriter = 4;
 }

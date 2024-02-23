@@ -49,7 +49,8 @@ export declare enum CapturePropertyIds {
     Favorite = 328193,
     UniqueDeviceIdentifier = 5308930,
     PcScTagTransmit = 4456731,
-    PcScCouplerControl = 4456732
+    PcScCouplerControl = 4456732,
+    ThemeSelectionDevice = 262430
 }
 export declare enum CapturePropertyTypes {
     None = 0,
