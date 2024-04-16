@@ -70,6 +70,7 @@ export declare class CaptureDataSourceFlags {
     static readonly Param = 2;
 }
 export declare class CaptureDataSourceStatus {
+    static readonly Default = -1;
     static readonly Disable = 0;
     static readonly Enable = 1;
     static readonly NotSupported = 2;

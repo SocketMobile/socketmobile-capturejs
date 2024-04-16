@@ -24,7 +24,7 @@ export declare enum CapturePropertyIds {
     DeletePairingBondingDevice = 1179907,
     RestoreFactoryDefaultsDevice = 1048836,
     SetPowerOffDevice = 1048837,
-    ButtonsStatusDevice = 65798,
+    ButtonsStatusDevice = 65792,
     SoundConfigDevice = 2359559,
     TimersDevice = 262408,
     LocalAcknowledgmentDevice = 131337,
@@ -50,7 +50,8 @@ export declare enum CapturePropertyIds {
     UniqueDeviceIdentifier = 5308930,
     PcScTagTransmit = 4456731,
     PcScCouplerControl = 4456732,
-    ThemeSelectionDevice = 262430
+    ThemeSelectionDevice = 262429,
+    ThemeSelectionMaskDevice = 262430
 }
 export declare enum CapturePropertyTypes {
     None = 0,

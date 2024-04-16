@@ -180,12 +180,13 @@ export declare enum ConnectBeepConfig {
     Beep = 1
 }
 export declare enum StandConfig {
-    MobileMode = 0,
-    StandMode = 1,
-    DetectMode = 2,
-    AutoMode = 3
+    Disabled = 0,
+    MobileMode = 1,
+    StandMode = 2,
+    DetectMode = 3,
+    AutoMode = 4
 }
-export declare enum ButtonPressMask {
+export declare enum ButtonsState {
     Left = 1,
     Right = 2,
     Middle = 4,
@@ -198,4 +199,13 @@ export declare enum ThemeSelection {
     Access = 2,
     Value = 3,
     Membership = 4
+}
+export declare enum ThemeSelectionMask {
+    Default = 1,
+    Nfc = 2,
+    DefaultNfc = 3,
+    Barcode = 4,
+    DefaultBarcode = 5,
+    NfcBarcode = 6,
+    All = 7
 }

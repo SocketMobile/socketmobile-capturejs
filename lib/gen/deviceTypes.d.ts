@@ -43,15 +43,16 @@ export declare class CaptureDeviceType {
     static readonly NFCS370 = 329243;
     static readonly ScannerS320 = 327964;
     static readonly NFCTag = 393239;
-    static readonly ScannerD930 = 196894;
-    static readonly ScannerD940 = 327967;
-    static readonly ScannerD960 = 327968;
+    static readonly ScannerM930 = 196894;
+    static readonly ScannerM940 = 196895;
     static readonly BtUnknown = 196641;
     static readonly DeviceManagerBle = 17104897;
+    static readonly BleUnknown = 329761;
 }
 export declare class CaptureDeviceTypeFunction {
     static readonly Legacy = 0;
     static readonly Scanner = 1;
     static readonly NFCReader = 2;
     static readonly NFCWriter = 4;
+    static readonly Unknown = 8;
 }

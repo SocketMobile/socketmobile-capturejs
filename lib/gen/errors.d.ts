@@ -1,10 +1,11 @@
 export default class SktErrors {
-    static readonly ESKT_WAITTIMEOUT = 1;
-    static readonly ESKT_ALREADYDONE = 2;
-    static readonly ESKT_PENDING = 3;
-    static readonly ESKT_STILLPENDING = 4;
-    static readonly ESKT_CREATED = 5;
+    static readonly ESKT_DEPRECATED = 7;
     static readonly ESKT_NODATA = 6;
+    static readonly ESKT_CREATED = 5;
+    static readonly ESKT_STILLPENDING = 4;
+    static readonly ESKT_PENDING = 3;
+    static readonly ESKT_ALREADYDONE = 2;
+    static readonly ESKT_WAITTIMEOUT = 1;
     static readonly ESKT_NOERROR = 0;
     static readonly ESKT_TESTFAILED = -1;
     static readonly ESKT_NOTENOUGHMEMORY = -2;
