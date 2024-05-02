@@ -1,4 +1,4 @@
-# CaptureJS
+# socketmobile-capturejs 1.3.48
 
 This Javascript NPM package can be used to add CaptureJS to your Javascript application.
 
@@ -17,16 +17,15 @@ Using CaptureJS in the code:
 ```sh
 import { Capture } from 'socketmobile-capturejs';
 import React from 'react';
-
 ```
 
 # Devices compatibility and CaptureSDK versions
-|       Devices                                          |          < 1.3         |          1.3           |
-| :----------------------------------------------------: | :--------------------: | :--------------------: | 
-|   **SocketCam C820**                                   |          ❌            |           ❌            |
-|   **S720/D720/S820**                                   |          ❌            |           ✅            |
-|   **D600, S550, and all other barcode scanners**       |          ✅            |           ✅            |
 
+|                    Devices                     | < 1.3 | 1.3 |
+| :--------------------------------------------: | :---: | :-: |
+|               **SocketCam C820**               |  ❌   | ❌  |
+|               **S720/D720/S820**               |  ❌   | ✅  |
+| **D600, S550, and all other barcode scanners** |  ✅   | ✅  |
 
 ## Use with Next.js
 
@@ -41,12 +40,12 @@ First, you need to install `next-transpile-modules` and you need to add the belo
 ```
 const withTM = require("next-transpile-modules")(["socketmobile-capturejs"]);
 module.exports = withTM({
-  webpack5: false, 
+  webpack5: false,
   //your other exports
 });
 ```
 
-After that, you will need to install the xhr2 package which will enable you to use XMLHttpRequest server side. Then you will need to add this code into your root file (ex: _app.js).
+After that, you will need to install the xhr2 package which will enable you to use XMLHttpRequest server side. Then you will need to add this code into your root file (ex: \_app.js).
 
 ```
 // hack for "next build"
