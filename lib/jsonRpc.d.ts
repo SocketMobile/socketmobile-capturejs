@@ -8,7 +8,7 @@ export declare class JsonRpc {
 export declare class CaptureEventResult<T> {
     handle?: number;
     event: CaptureEvent<T>;
-    constructor(id: CaptureEventIds, type: CaptureEventTypes, value: T, handle?: number);
+    constructor(id: CaptureEventIds, type: CaptureEventTypes, result: number, value: T, handle?: number);
 }
 export declare class JRpcEvent<T> {
     jsonrpc: string;

@@ -22,6 +22,7 @@ declare class Capture {
     getProperty<T>(property: CaptureProperty<T>): Promise<CaptureProperty<any>>;
     setProperty<T>(property: CaptureProperty<T>): Promise<CaptureProperty<unknown>>;
     notification(jsonRpc: JRpcEvent<any>, handle?: number): void;
+    private unifyResultInEvents;
     private getJsonRpcId;
 }
 export default Capture;
