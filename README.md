@@ -1,4 +1,4 @@
-# socketmobile-capturejs 1.3.49
+# socketmobile-capturejs 1.3.50
 
 This Javascript NPM package can be used to add CaptureJS to your Javascript application.
 
