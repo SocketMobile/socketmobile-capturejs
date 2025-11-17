@@ -51,7 +51,17 @@ export declare enum CapturePropertyIds {
     PcScTagTransmit = 4456731,
     PcScCouplerControl = 4456732,
     ThemeSelectionDevice = 262429,
-    ThemeSelectionMaskDevice = 262430
+    ThemeSelectionMaskDevice = 262430,
+    LassoStatusDevice = 131359,
+    LassoIdDevice = 1311008,
+    LassoLifeSpanDevice = 196897,
+    SinglePartnership = -2147221214,
+    SinglePartnershipStamp = -2147417821,
+    ResetSinglePartnershipDevice = 292,
+    ConnectDiscoveredDevice = 1376771,
+    DisconnectDiscoveredDevice = 1376768,
+    AddDevice = -2146303981,
+    RemoveDevice = -2146107372
 }
 export declare enum CapturePropertyTypes {
     None = 0,

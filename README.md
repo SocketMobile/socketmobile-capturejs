@@ -1,4 +1,4 @@
-# socketmobile-capturejs 1.3.50
+# socketmobile-capturejs 1.4.3
 
 This Javascript NPM package can be used to add CaptureJS to your Javascript application.
 
@@ -21,11 +21,12 @@ import React from 'react';
 
 # Devices compatibility and CaptureSDK versions
 
-|                    Devices                     | < 1.3 | 1.3 |
-| :--------------------------------------------: | :---: | :-: |
-|               **SocketCam C820**               |  ❌   | ❌  |
-|               **S720/D720/S820**               |  ❌   | ✅  |
-| **D600, S550, and all other barcode scanners** |  ✅   | ✅  |
+|                    Devices                      | < 1.3 | 1.3 | 1.4 |
+| :----------------------------------------------:| :---: | :-: | :-: |
+|               **SocketCam C820**                |  ❌   | ❌   | ❌  |
+|               **S720/D720/S820**                |  ❌   | ✅   | ✅  |
+| **D600 and all other barcode scanners**         |  ✅   | ✅   | ✅  |
+| **S550, S370, S320, S721 (Bluetooth LE device)**|  ❌   | ❌   | ✅  |
 
 ## Use with Next.js
 

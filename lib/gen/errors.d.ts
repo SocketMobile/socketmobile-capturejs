@@ -1,4 +1,5 @@
 export default class SktErrors {
+    static readonly ESKT_LASSODISABLED = 8;
     static readonly ESKT_DEPRECATED = 7;
     static readonly ESKT_NODATA = 6;
     static readonly ESKT_CREATED = 5;
@@ -74,7 +75,9 @@ export default class SktErrors {
     static readonly ESKT_INVALIDFORMAT = -85;
     static readonly ESKT_INVALIDVERSION = -86;
     static readonly ESKT_SERVICENOTCOMMUNICATING = -87;
-    static readonly ESKT_OVERLAYVIEWNOTSET = -90;
+    static readonly ESKT_LASSOIDEXPIRED = -88;
+    static readonly ESKT_LASSOIDTNOTMATCHING = -89;
+    static readonly ESKT_LASSOIDALREADYSET = -90;
     static readonly ESKT_CANCEL = -91;
     static readonly ESKT_EXPIRED = -92;
     static readonly ESKT_INVALIDAPPINFO = -93;

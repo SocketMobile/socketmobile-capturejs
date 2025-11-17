@@ -209,3 +209,19 @@ export declare enum ThemeSelectionMask {
     NfcBarcode = 6,
     All = 7
 }
+export declare enum LassoDeviceStatus {
+    Disable = 0,
+    Enable = 1
+}
+export declare enum SinglePartnership {
+    Disable = 0,
+    WebApi = 1,
+    WebUI = 2,
+    Uuid = 3,
+    WebUIPrompt = 4,
+    DeviceId = 5
+}
+export declare enum BluetoothDiscoveryMode {
+    BluetoothLowEnergy = 1,
+    BluetoothClassic = 2
+}
