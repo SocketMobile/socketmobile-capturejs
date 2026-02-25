@@ -1,4 +1,4 @@
-# socketmobile-capturejs 1.4.3
+# Socket Mobile - CaptureJS 2.0.2
 
 This Javascript NPM package can be used to add CaptureJS to your Javascript application.
 
@@ -19,14 +19,15 @@ import { Capture } from 'socketmobile-capturejs';
 import React from 'react';
 ```
 
-# Devices compatibility and CaptureSDK versions
+## Devices compatibility and CaptureSDK versions
 
-|                    Devices                      | < 1.3 | 1.3 | 1.4 |
-| :----------------------------------------------:| :---: | :-: | :-: |
-|               **SocketCam C820**                |  ❌   | ❌   | ❌  |
-|               **S720/D720/S820**                |  ❌   | ✅   | ✅  |
-| **D600 and all other barcode scanners**         |  ✅   | ✅   | ✅  |
-| **S550, S370, S320, S721 (Bluetooth LE device)**|  ❌   | ❌   | ✅  |
+|                    Devices                      | < 2.0 | 2.0 |
+| :----------------------------------------------:| :---: | :-: |
+|               **SocketCam C820**                |  ❌   | ❌  |
+|               **S720/D720/S820**                |  ✅   | ✅  |
+| **D600 and all other barcode scanners**         |  ✅   | ✅  |
+| **S550, S370, S320**                            |  ✅   | ✅  |
+| **S721 (New Bluetooth LE device)**              |  ❌   | ✅  |
 
 ## Use with Next.js
 
@@ -38,7 +39,7 @@ This is because `XmlHttpRequest` is not available server-side. We are working on
 
 First, you need to install `next-transpile-modules` and you need to add the below code in your `next.config.js`.
 
-```
+```typescript
 const withTM = require("next-transpile-modules")(["socketmobile-capturejs"]);
 module.exports = withTM({
   webpack5: false,
@@ -48,7 +49,7 @@ module.exports = withTM({
 
 After that, you will need to install the xhr2 package which will enable you to use XMLHttpRequest server side. Then you will need to add this code into your root file (ex: \_app.js).
 
-```
+```typescript
 // hack for "next build"
 import xhr2 from "xhr2";
 import '../styles/globals.css'
@@ -59,7 +60,7 @@ if (typeof globalThis.window?.document?.createElement === 'undefined') {
 }
 ```
 
-Then in your pages or index.js file you can import socketmobile-capture modules. Note: You cannot import socketmobile-capture modules in the same file that you write the above global check or you will get the same undefined XMLHttpRequest error. For more on this type of error, check out the issue raised [here](https://github.com/SocketMobile/socketmobile-capturejs/issues/1).
+Then in your pages or index.js file you can import socketmobile-capture modules. Note: You cannot import socketmobile-capture modules in the same file that you write the above global check or you will get the same undefined XMLHttpRequest error. For more on this type of error, check out [the issue raised here](https://github.com/SocketMobile/socketmobile-capturejs/issues/1).
 
 ## Help
 

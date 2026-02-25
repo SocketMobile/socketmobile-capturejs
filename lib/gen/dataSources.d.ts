@@ -50,7 +50,8 @@ export declare class CaptureDataSourceID {
     static readonly SymbologyDotCode = 48;
     static readonly SymbologyDigimarc = 49;
     static readonly SymbologyKoreaPost = 50;
-    static readonly LastSymbologyID = 51;
+    static readonly SymbologyMicroQRCode = 51;
+    static readonly LastSymbologyID = 52;
     static readonly TagTypeISO14443TypeA = 256;
     static readonly TagTypeISO14443TypeB = 257;
     static readonly TagTypeFelica = 258;

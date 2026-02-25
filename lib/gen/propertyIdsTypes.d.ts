@@ -61,7 +61,8 @@ export declare enum CapturePropertyIds {
     ConnectDiscoveredDevice = 1376771,
     DisconnectDiscoveredDevice = 1376768,
     AddDevice = -2146303981,
-    RemoveDevice = -2146107372
+    RemoveDevice = -2146107372,
+    ResetDevice = 1048832
 }
 export declare enum CapturePropertyTypes {
     None = 0,

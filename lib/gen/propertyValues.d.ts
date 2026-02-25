@@ -225,3 +225,7 @@ export declare enum BluetoothDiscoveryMode {
     BluetoothLowEnergy = 1,
     BluetoothClassic = 2
 }
+export declare enum DecodeLocalActionSelectionMask {
+    Good = 1,
+    Bad = 2
+}

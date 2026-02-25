@@ -1,5 +1,7 @@
-import { CaptureEvent, CaptureEventIds, CaptureEventTypes } from './captureEvents';
+import { CaptureEvent } from './captureEvents';
+import { CaptureEventIds, CaptureEventTypes } from './gen/eventIds';
 import { DeviceInfo } from './deviceInfo';
+import { DiscoveredDeviceInfo } from './discoveredDeviceInfo';
 export declare class JsonRpc {
     jsonrpc: string;
     id: number;
@@ -17,6 +19,9 @@ export declare class JRpcEvent<T> {
 }
 export declare class JRpcEventDevicePresence extends JRpcEvent<DeviceInfo> {
     constructor(id: CaptureEventIds, deviceInfo: DeviceInfo, handle?: number);
+}
+export declare class JRpcEventDiscoveredDevice extends JRpcEvent<DiscoveredDeviceInfo> {
+    constructor(id: CaptureEventIds, discoveredDeviceInfo: DiscoveredDeviceInfo);
 }
 export declare class JRpcRequest<T> extends JsonRpc {
     method: string;
